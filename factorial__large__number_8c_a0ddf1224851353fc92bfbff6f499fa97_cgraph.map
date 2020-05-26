@@ -1,0 +1,10 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$factorial__large__number_8c.html#ad8101f58545bd891ae8b6e11caadd7eb" title="new_number" alt="" coords="117,5,213,32"/>
+<area shape="rect" id="node3" href="$function__timer_8h.html#accb7f00d99dee0675cc8355215ffa4ea" title="new_timer" alt="" coords="123,56,206,83"/>
+<area shape="rect" id="node4" href="$function__timer_8h.html#ad22e8b158b90f5a405241a943120479a" title="start_timer" alt="" coords="123,107,207,133"/>
+<area shape="rect" id="node5" href="$factorial__large__number_8c.html#ad398ddbd594ca69a5e6dfc894925341e" title="multiply" alt="" coords="131,157,198,184"/>
+<area shape="rect" id="node7" href="$factorial__large__number_8c.html#ab5c854e0df76165c31899e69eceeeaae" title="delete_number" alt="" coords="415,183,521,209"/>
+<area shape="rect" id="node8" href="$function__timer_8h.html#a527744876e07c6dd44defd7c40177afa" title="end_timer_delete" alt="" coords="104,259,225,285"/>
+<area shape="rect" id="node6" href="$factorial__large__number_8c.html#af2869d36c22a2b8f93d3166a84e124b3" title="add_digit" alt="" coords="283,157,357,184"/>
+<area shape="rect" id="node9" href="$function__timer_8h.html#a1e245d139d00f5f5246dc4154da7d6b2" title="delete_timer" alt="" coords="273,259,367,285"/>
+</map>
