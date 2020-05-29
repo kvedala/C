@@ -96,75 +96,76 @@ $(function() {
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">    #define ARRAY_ERASED -1</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">    #define SUCCESS 0</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">    #define INVALID_POSITION 1</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">    #define POSITION_INIT 2</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">    #define POSITION_NOT_INIT 3</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">    #define POSITION_EMPTY 4</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">    #define ARRAY_FULL 5</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="../../d4/d2d/struct_c_array.html">   30</a></span>&#160;    <span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> {</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordtype">int</span> *array;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordtype">int</span> size;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    } <a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a>;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="comment">// +-------------------------------------+</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="comment">// |           Returns array             |</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#define ARRAY_ERASED -1</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#define SUCCESS 0</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#define INVALID_POSITION 1</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#define POSITION_INIT 2</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#define POSITION_NOT_INIT 3</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#define POSITION_EMPTY 4</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#define ARRAY_FULL 5</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="../../d4/d2d/struct_c_array.html">   31</a></span>&#160;    <span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordtype">int</span> *array;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordtype">int</span> size;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    } <a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="comment">// +-------------------------------------+</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> * getCArray(<span class="keywordtype">int</span> size);</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> * getCopyCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="comment">// +-------------------------------------+</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="comment">// |           Input / Output            |</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="comment">// |           Returns array             |</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="comment">// +-------------------------------------+</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *getCArray(<span class="keywordtype">int</span> size);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *getCopyCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="comment">// +-------------------------------------+</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">int</span> insertValueCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array, <span class="keywordtype">int</span> position, <span class="keywordtype">int</span> value);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">int</span> removeValueCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array, <span class="keywordtype">int</span> position);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">int</span> pushValueCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array, <span class="keywordtype">int</span> value);</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">int</span> updateValueCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array, <span class="keywordtype">int</span> position, <span class="keywordtype">int</span> value);</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="comment">// +-------------------------------------+</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="comment">// |               Erase                 |</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="comment">// |           Input / Output            |</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="comment">// +-------------------------------------+</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">int</span> insertValueCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array, <span class="keywordtype">int</span> position, <span class="keywordtype">int</span> value);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">int</span> removeValueCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array, <span class="keywordtype">int</span> position);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">int</span> pushValueCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array, <span class="keywordtype">int</span> value);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">int</span> updateValueCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array, <span class="keywordtype">int</span> position, <span class="keywordtype">int</span> value);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">// +-------------------------------------+</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">int</span> eraseCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="comment">// +-------------------------------------+</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="comment">// |             Switching               |</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="comment">// |               Erase                 |</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="comment">// +-------------------------------------+</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">int</span> eraseCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="comment">// +-------------------------------------+</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">int</span> switchValuesCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array, <span class="keywordtype">int</span> position1, <span class="keywordtype">int</span> position2);</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">int</span> reverseCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array);</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="comment">// +-------------------------------------+</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="comment">// |              Sorting                |</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="comment">// |             Switching               |</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="comment">// +-------------------------------------+</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">int</span> switchValuesCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array, <span class="keywordtype">int</span> position1, <span class="keywordtype">int</span> position2);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">int</span> reverseCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="comment">// +-------------------------------------+</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">int</span> bubbleSortCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array);</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">int</span> selectionSortCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array);</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">int</span> insertionSortCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array);</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">int</span> blenderCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array);</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="comment">// +-------------------------------------+</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="comment">// |             Searching               |</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="comment">// |              Sorting                |</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="comment">// +-------------------------------------+</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">int</span> bubbleSortCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">int</span> selectionSortCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">int</span> insertionSortCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">int</span> blenderCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="comment">// +-------------------------------------+</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">int</span> valueOcurranceCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array, <span class="keywordtype">int</span> value);</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> * valuePositionsCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array, <span class="keywordtype">int</span> value);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordtype">int</span> findMaxCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array);</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordtype">int</span> findMinCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array);</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="comment">// +-------------------------------------+</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="comment">// |              Display                |</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="comment">// |             Searching               |</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="comment">// +-------------------------------------+</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordtype">int</span> valueOcurranceCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array, <span class="keywordtype">int</span> value);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *valuePositionsCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array, <span class="keywordtype">int</span> value);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordtype">int</span> findMaxCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordtype">int</span> findMinCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="comment">// +-------------------------------------+</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordtype">int</span> displayCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array);</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    </div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;}</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="comment">// |              Display                |</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="comment">// +-------------------------------------+</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">int</span> displayCArray(<a class="code" href="../../d4/d2d/struct_c_array.html">CArray</a> *array);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;}</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="afactorial__large__number_8c_html_a0ddf1224851353fc92bfbff6f499fa97"><div class="ttname"><a href="../../d6/d3d/factorial__large__number_8c.html#a0ddf1224851353fc92bfbff6f499fa97">main</a></div><div class="ttdeci">int main(int argc, char *argv[])</div><div class="ttdef"><b>Definition:</b> factorial_large_number.c:89</div></div>
-<div class="ttc" id="astruct_c_array_html"><div class="ttname"><a href="../../d4/d2d/struct_c_array.html">CArray</a></div><div class="ttdef"><b>Definition:</b> CArray.h:30</div></div>
+<div class="ttc" id="astruct_c_array_html"><div class="ttname"><a href="../../d4/d2d/struct_c_array.html">CArray</a></div><div class="ttdef"><b>Definition:</b> CArray.h:32</div></div>
 <div class="ttc" id="anewton-raphson-root_8c_html_a72f87d423a488946b319627a454d3925"><div class="ttname"><a href="../../da/d7a/newton-raphson-root_8c.html#a72f87d423a488946b319627a454d3925">func</a></div><div class="ttdeci">double complex func(double complex x)</div><div class="ttdef"><b>Definition:</b> newton-raphson-root.c:20</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
