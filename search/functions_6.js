@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['new_5fnumber',['new_number',['../d6/d3d/factorial__large__number_8c.html#ad8101f58545bd891ae8b6e11caadd7eb',1,'factorial_large_number.c']]],
-  ['new_5ftimer',['new_timer',['../d2/da3/function__timer_8h.html#accb7f00d99dee0675cc8355215ffa4ea',1,'main.cpp']]]
+  ['poly_5ffunction_115',['poly_function',['../da/d38/durand__kerner__roots_8c.html#adf4ae062a028c6faf2b96c9c1eb343af',1,'durand_kerner_roots.c']]],
+  ['print_5fmatrix_116',['print_matrix',['../d4/d68/qr__decompose_8h.html#a90562ce8c3707401e9c5809dece68d6a',1,'qr_decompose.h']]]
 ];

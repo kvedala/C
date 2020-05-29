@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['graph',['Graph',['../dc/d98/structGraph.html',1,'']]],
-  ['graphrep',['GraphRep',['../df/df8/structGraphRep.html',1,'']]]
+  ['graph_28',['Graph',['../d4/dd4/struct_graph.html',1,'']]],
+  ['graphrep_29',['GraphRep',['../d2/d6a/struct_graph_rep.html',1,'']]]
 ];

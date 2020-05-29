@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['max_5fheap',['max_heap',['../d0/d8a/structmax__heap.html',1,'']]],
-  ['min_5fheap',['min_heap',['../de/dce/structmin__heap.html',1,'']]]
+  ['max_5fheap_84',['max_heap',['../d0/d8a/structmax__heap.html',1,'']]],
+  ['min_5fheap_85',['min_heap',['../de/dce/structmin__heap.html',1,'']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['end_5ftimer',['end_timer',['../d2/da3/function__timer_8h.html#ab5f5b462f9d209d9eadac6893fe93940',1,'main.cpp']]],
-  ['end_5ftimer_5fdelete',['end_timer_delete',['../d2/da3/function__timer_8h.html#a527744876e07c6dd44defd7c40177afa',1,'main.cpp']]]
+  ['fib_109',['fib',['../d2/db9/_fibonacci__fast_8c.html#a7a3d55bd19854075cba2eed6b63cb2d3',1,'Fibonacci_fast.c']]],
+  ['func_110',['func',['../da/d7a/newton-raphson-root_8c.html#a72f87d423a488946b319627a454d3925',1,'newton-raphson-root.c']]]
 ];

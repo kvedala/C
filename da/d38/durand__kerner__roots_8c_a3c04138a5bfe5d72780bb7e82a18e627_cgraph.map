@@ -1,9 +1,6 @@
 <map id="main" name="main">
-<area shape="rect" id="node2" href="$da/d38/durand__kerner__roots_8c.html#afa5b04ce11475d67049cba8273741fb7" title="complex_str" alt="" coords="121,5,215,32"/>
-<area shape="rect" id="node3" href="$d2/da3/function__timer_8h.html#accb7f00d99dee0675cc8355215ffa4ea" title="new_timer" alt="" coords="127,56,209,83"/>
-<area shape="rect" id="node4" href="$d2/da3/function__timer_8h.html#ad22e8b158b90f5a405241a943120479a" title="start_timer" alt="" coords="126,107,210,133"/>
-<area shape="rect" id="node5" href="$da/d38/durand__kerner__roots_8c.html#a26d5695ebed0818a3e7cf4b10aacab52" title="check_termination" alt="" coords="104,157,232,184"/>
-<area shape="rect" id="node6" href="$da/d38/durand__kerner__roots_8c.html#adf4ae062a028c6faf2b96c9c1eb343af" title="poly_function" alt="" coords="119,208,217,235"/>
-<area shape="rect" id="node7" href="$d2/da3/function__timer_8h.html#a527744876e07c6dd44defd7c40177afa" title="end_timer_delete" alt="" coords="107,259,229,285"/>
-<area shape="rect" id="node8" href="$d2/da3/function__timer_8h.html#a1e245d139d00f5f5246dc4154da7d6b2" title="delete_timer" alt="" coords="280,259,373,285"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,56,83"/>
+<area shape="rect" id="node2" href="$da/d38/durand__kerner__roots_8c.html#a26d5695ebed0818a3e7cf4b10aacab52" title=" " alt="" coords="104,5,232,32"/>
+<area shape="rect" id="node3" href="$da/d38/durand__kerner__roots_8c.html#afa5b04ce11475d67049cba8273741fb7" title=" " alt="" coords="121,56,215,83"/>
+<area shape="rect" id="node4" href="$da/d38/durand__kerner__roots_8c.html#adf4ae062a028c6faf2b96c9c1eb343af" title=" " alt="" coords="119,107,217,133"/>
 </map>
