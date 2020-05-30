@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['vector_5fdot_64',['vector_dot',['../d4/d68/qr__decompose_8h.html#a3a584b79941a43d775f9d4ce446dbe05',1,'qr_decompose.h']]],
-  ['vector_5fmag_65',['vector_mag',['../d4/d68/qr__decompose_8h.html#abeec1f78a7a7e7251687e75340331212',1,'qr_decompose.h']]],
-  ['vector_5fproj_66',['vector_proj',['../d4/d68/qr__decompose_8h.html#a82b20e027437df768d7e994cf4cae29f',1,'qr_decompose.h']]],
-  ['vector_5fsub_67',['vector_sub',['../d4/d68/qr__decompose_8h.html#a6b6a0e75e75ff7919057dd275bb69145',1,'qr_decompose.h']]]
+  ['the_20algorithms_20_2d_20c_63',['The Algorithms - C',['../index.html',1,'']]],
+  ['t_64',['T',['../d5/d7e/struct_t.html',1,'']]],
+  ['test_5ffunction_65',['test_function',['../dc/d47/realtime__stats_8c.html#aa54c915581fcc495489175a4386d59fd',1,'realtime_stats.c']]],
+  ['tnode_66',['tnode',['../d8/d7a/structtnode.html',1,'']]],
+  ['trienode_67',['TrieNode',['../da/d9b/struct_trie_node.html',1,'']]]
 ];

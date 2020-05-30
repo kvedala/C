@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['vector_5fdot_118',['vector_dot',['../d4/d68/qr__decompose_8h.html#a3a584b79941a43d775f9d4ce446dbe05',1,'qr_decompose.h']]],
-  ['vector_5fmag_119',['vector_mag',['../d4/d68/qr__decompose_8h.html#abeec1f78a7a7e7251687e75340331212',1,'qr_decompose.h']]],
-  ['vector_5fproj_120',['vector_proj',['../d4/d68/qr__decompose_8h.html#a82b20e027437df768d7e994cf4cae29f',1,'qr_decompose.h']]],
-  ['vector_5fsub_121',['vector_sub',['../d4/d68/qr__decompose_8h.html#a6b6a0e75e75ff7919057dd275bb69145',1,'qr_decompose.h']]]
+  ['stats_5fcomputer1_123',['stats_computer1',['../dc/d47/realtime__stats_8c.html#a63ddcdaab24f722f0963fa2fbe0ae628',1,'realtime_stats.c']]],
+  ['stats_5fcomputer2_124',['stats_computer2',['../dc/d47/realtime__stats_8c.html#a34be233a9200ee2065f6b7b27e2d9a96',1,'realtime_stats.c']]]
 ];
