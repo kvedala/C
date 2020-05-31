@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['factorial_5flarge_5fnumber_2ec_101',['factorial_large_number.c',['../d6/d3d/factorial__large__number_8c.html',1,'']]],
-  ['fibonacci_5ffast_2ec_102',['fibonacci_fast.c',['../d4/d99/fibonacci__fast_8c.html',1,'']]]
+  ['durand_5fkerner_5froots_2ec_117',['durand_kerner_roots.c',['../da/d38/durand__kerner__roots_8c.html',1,'']]]
 ];

@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['vector_5fdot_126',['vector_dot',['../d4/d68/qr__decompose_8h.html#a3a584b79941a43d775f9d4ce446dbe05',1,'qr_decompose.h']]],
-  ['vector_5fmag_127',['vector_mag',['../d4/d68/qr__decompose_8h.html#abeec1f78a7a7e7251687e75340331212',1,'qr_decompose.h']]],
-  ['vector_5fproj_128',['vector_proj',['../d4/d68/qr__decompose_8h.html#a82b20e027437df768d7e994cf4cae29f',1,'qr_decompose.h']]],
-  ['vector_5fsub_129',['vector_sub',['../d4/d68/qr__decompose_8h.html#a6b6a0e75e75ff7919057dd275bb69145',1,'qr_decompose.h']]]
+  ['test1_149',['test1',['../dd/d8c/adaline__learning_8c.html#ab4ecb3accf5d9e0263087e7265bbe3a9',1,'adaline_learning.c']]],
+  ['test2_150',['test2',['../dd/d8c/adaline__learning_8c.html#a05cc9a0acb524fde727a4d7b4a747ee6',1,'adaline_learning.c']]],
+  ['test3_151',['test3',['../dd/d8c/adaline__learning_8c.html#a3f37b9f073f7e57fd0b39d70718af1b1',1,'adaline_learning.c']]],
+  ['test_5ffunction_152',['test_function',['../dc/d47/realtime__stats_8c.html#aa54c915581fcc495489175a4386d59fd',1,'realtime_stats.c']]]
 ];
