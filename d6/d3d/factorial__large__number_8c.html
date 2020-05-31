@@ -159,19 +159,25 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>add a digit to the large number </p>
-<div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;{</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordflow">if</span> (value &gt; 9)</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    {</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        fprintf(stderr, <span class="stringliteral">&quot;digit &gt; 9!!\n&quot;</span>);</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <a class="code" href="../../d6/d3d/factorial__large__number_8c.html#ab5c854e0df76165c31899e69eceeeaae">delete_number</a>(num);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        exit(EXIT_FAILURE);</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    num-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#a3fd11c0b413bbabfb8737d4ae73e5aa0">num_digits</a>++;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    num-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#afaf353a072cf050ac86ac6e39868bcc9">digits</a> = (<span class="keywordtype">char</span> *)realloc(num-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#afaf353a072cf050ac86ac6e39868bcc9">digits</a>, num-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#a3fd11c0b413bbabfb8737d4ae73e5aa0">num_digits</a> * <span class="keyword">sizeof</span>(<span class="keywordtype">char</span>));</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    num-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#afaf353a072cf050ac86ac6e39868bcc9">digits</a>[num-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#a3fd11c0b413bbabfb8737d4ae73e5aa0">num_digits</a> - 1] = value;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;}</div>
+<p>add a digit to the large number </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">num</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>value of the digit to insert </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;{</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">if</span> (value &gt; 9)</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    {</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        fprintf(stderr, <span class="stringliteral">&quot;digit &gt; 9!!\n&quot;</span>);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <a class="code" href="../../d6/d3d/factorial__large__number_8c.html#ab5c854e0df76165c31899e69eceeeaae">delete_number</a>(num);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        exit(EXIT_FAILURE);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    num-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#a3fd11c0b413bbabfb8737d4ae73e5aa0">num_digits</a>++;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    num-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#afaf353a072cf050ac86ac6e39868bcc9">digits</a> = (<span class="keywordtype">char</span> *)realloc(num-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#afaf353a072cf050ac86ac6e39868bcc9">digits</a>, num-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#a3fd11c0b413bbabfb8737d4ae73e5aa0">num_digits</a> * <span class="keyword">sizeof</span>(<span class="keywordtype">char</span>));</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    num-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#afaf353a072cf050ac86ac6e39868bcc9">digits</a>[num-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#a3fd11c0b413bbabfb8737d4ae73e5aa0">num_digits</a> - 1] = value;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -196,11 +202,16 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>delete all memory allocated for large number </p>
-<div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    free(num-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#afaf353a072cf050ac86ac6e39868bcc9">digits</a>);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    free(num);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div>
+<p>delete all memory allocated for large number </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">num</td><td>pointer to large_num to delete </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    free(num-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#afaf353a072cf050ac86ac6e39868bcc9">digits</a>);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    free(num);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -230,35 +241,35 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <p>main function </p>
-<div class="fragment"><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;{</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordtype">int</span> number, i;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="comment">// Asks for the number/position of term in Fibonnacci sequence</span></div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordflow">if</span> (argc == 2)</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        number = atoi(argv[1]);</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    {</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        printf(<span class="stringliteral">&quot;Enter the value of n(n starts from 0 ): &quot;</span>);</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        scanf(<span class="stringliteral">&quot;%d&quot;</span>, &amp;number);</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    }</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <a class="code" href="../../d3/d5a/struct__large__num.html">large_num</a> *result = <a class="code" href="../../d6/d3d/factorial__large__number_8c.html#ad8101f58545bd891ae8b6e11caadd7eb">new_number</a>();</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    clock_t start_time = clock();</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordflow">for</span> (i = 2; i &lt;= number; i++)</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="comment">/* Multiply every number from 2 thru N */</span></div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <a class="code" href="../../d6/d3d/factorial__large__number_8c.html#ad398ddbd594ca69a5e6dfc894925341e">multiply</a>(result, i);</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordtype">double</span> time_taken = (clock() - start_time) * (<span class="keywordtype">double</span>)1e3 / CLOCKS_PER_SEC;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="comment">// time_taken = (clock() - start_time) / (double) CLOCKS_PER_SEC;</span></div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    printf(<span class="stringliteral">&quot;%d! = &quot;</span>, number);</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="keywordflow">for</span> (i = result-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#a3fd11c0b413bbabfb8737d4ae73e5aa0">num_digits</a>; i &gt; 0; i--)</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        putchar(result-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#afaf353a072cf050ac86ac6e39868bcc9">digits</a>[i - 1] + <span class="charliteral">&#39;0&#39;</span>);</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    printf(<span class="stringliteral">&quot;\nTime taken: %.4g ms\n&quot;</span>, time_taken);</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <a class="code" href="../../d6/d3d/factorial__large__number_8c.html#ab5c854e0df76165c31899e69eceeeaae">delete_number</a>(result);</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;{</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordtype">int</span> number, i;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="comment">// Asks for the number/position of term in Fibonnacci sequence</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordflow">if</span> (argc == 2)</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        number = atoi(argv[1]);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    {</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        printf(<span class="stringliteral">&quot;Enter the value of n(n starts from 0 ): &quot;</span>);</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        scanf(<span class="stringliteral">&quot;%d&quot;</span>, &amp;number);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    }</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160; </div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <a class="code" href="../../d3/d5a/struct__large__num.html">large_num</a> *result = <a class="code" href="../../d6/d3d/factorial__large__number_8c.html#ad8101f58545bd891ae8b6e11caadd7eb">new_number</a>();</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    clock_t start_time = clock();</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordflow">for</span> (i = 2; i &lt;= number; i++)</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="comment">/* Multiply every number from 2 thru N */</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        <a class="code" href="../../d6/d3d/factorial__large__number_8c.html#ad398ddbd594ca69a5e6dfc894925341e">multiply</a>(result, i);</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="keywordtype">double</span> time_taken = (clock() - start_time) * (<span class="keywordtype">double</span>)1e3 / CLOCKS_PER_SEC;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="comment">// time_taken = (clock() - start_time) / (double) CLOCKS_PER_SEC;</span></div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    printf(<span class="stringliteral">&quot;%d! = &quot;</span>, number);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordflow">for</span> (i = result-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#a3fd11c0b413bbabfb8737d4ae73e5aa0">num_digits</a>; i &gt; 0; i--)</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        putchar(result-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#afaf353a072cf050ac86ac6e39868bcc9">digits</a>[i - 1] + <span class="charliteral">&#39;0&#39;</span>);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    printf(<span class="stringliteral">&quot;\nTime taken: %.4g ms\n&quot;</span>, time_taken);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <a class="code" href="../../d6/d3d/factorial__large__number_8c.html#ab5c854e0df76165c31899e69eceeeaae">delete_number</a>(result);</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -294,29 +305,29 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <p>multiply large number with another integer and store the result in the same large number </p>
-<div class="fragment"><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;{</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">int</span> i;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> carry = 0, temp;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">for</span> (i = 0; i &lt; num-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#a3fd11c0b413bbabfb8737d4ae73e5aa0">num_digits</a>; i++)</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    {</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        temp = num-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#afaf353a072cf050ac86ac6e39868bcc9">digits</a>[i] * n;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        temp += carry;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">if</span> (temp &lt; 10)</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            carry = 0;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        {</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            carry = temp / 10;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            temp = temp % 10;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        }</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        num-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#afaf353a072cf050ac86ac6e39868bcc9">digits</a>[i] = temp;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    }</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordflow">while</span> (carry != 0)</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    {</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <a class="code" href="../../d6/d3d/factorial__large__number_8c.html#af2869d36c22a2b8f93d3166a84e124b3">add_digit</a>(num, carry % 10);</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        carry /= 10;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    }</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;{</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">int</span> i;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> carry = 0, temp;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordflow">for</span> (i = 0; i &lt; num-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#a3fd11c0b413bbabfb8737d4ae73e5aa0">num_digits</a>; i++)</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        temp = num-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#afaf353a072cf050ac86ac6e39868bcc9">digits</a>[i] * n;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        temp += carry;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">if</span> (temp &lt; 10)</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            carry = 0;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            carry = temp / 10;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            temp = temp % 10;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        }</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        num-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#afaf353a072cf050ac86ac6e39868bcc9">digits</a>[i] = temp;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    }</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">while</span> (carry != 0)</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    {</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <a class="code" href="../../d6/d3d/factorial__large__number_8c.html#af2869d36c22a2b8f93d3166a84e124b3">add_digit</a>(num, carry % 10);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        carry /= 10;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -341,14 +352,14 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>create a new large number </p>
-<div class="fragment"><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="../../d3/d5a/struct__large__num.html">large_num</a> *new_num = (<a class="code" href="../../d3/d5a/struct__large__num.html">large_num</a> *)malloc(<span class="keyword">sizeof</span>(<a class="code" href="../../d3/d5a/struct__large__num.html">large_num</a>));</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    new_num-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#a3fd11c0b413bbabfb8737d4ae73e5aa0">num_digits</a> = 1;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    new_num-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#afaf353a072cf050ac86ac6e39868bcc9">digits</a> = (<span class="keywordtype">char</span> *)malloc(1 * <span class="keyword">sizeof</span>(<span class="keywordtype">char</span>));</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    new_num-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#afaf353a072cf050ac86ac6e39868bcc9">digits</a>[0] = 1;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">return</span> new_num;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
+<p>create a new large number </p><dl class="section return"><dt>Returns</dt><dd>pointer to a large number </dd></dl>
+<div class="fragment"><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="../../d3/d5a/struct__large__num.html">large_num</a> *new_num = (<a class="code" href="../../d3/d5a/struct__large__num.html">large_num</a> *)malloc(<span class="keyword">sizeof</span>(<a class="code" href="../../d3/d5a/struct__large__num.html">large_num</a>));</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    new_num-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#a3fd11c0b413bbabfb8737d4ae73e5aa0">num_digits</a> = 1;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    new_num-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#afaf353a072cf050ac86ac6e39868bcc9">digits</a> = (<span class="keywordtype">char</span> *)malloc(1 * <span class="keyword">sizeof</span>(<span class="keywordtype">char</span>));</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    new_num-&gt;<a class="code" href="../../d3/d5a/struct__large__num.html#afaf353a072cf050ac86ac6e39868bcc9">digits</a>[0] = 1;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordflow">return</span> new_num;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -361,25 +372,25 @@ Here is the call graph for this function:</div>
 <div class="ttc" id="astruct__large__num_html_a3fd11c0b413bbabfb8737d4ae73e5aa0"><div class="ttname"><a href="../../d3/d5a/struct__large__num.html#a3fd11c0b413bbabfb8737d4ae73e5aa0">_large_num::num_digits</a></div><div class="ttdeci">unsigned int num_digits</div><div class="ttdef"><b>Definition:</b> factorial_large_number.c:16</div></div>
 <div class="ttc" id="arealtime__stats_8c_html_a63ddcdaab24f722f0963fa2fbe0ae628"><div class="ttname"><a href="../../dc/d47/realtime__stats_8c.html#a63ddcdaab24f722f0963fa2fbe0ae628">stats_computer1</a></div><div class="ttdeci">void stats_computer1(float x, float *mean, float *variance, float *std)</div><div class="ttdef"><b>Definition:</b> realtime_stats.c:23</div></div>
 <div class="ttc" id="aqr__decompose_8h_html_a45c7640d9d22c89c11beb1f567843c56"><div class="ttname"><a href="../../d4/d68/qr__decompose_8h.html#a45c7640d9d22c89c11beb1f567843c56">qr_decompose</a></div><div class="ttdeci">void qr_decompose(double **A, double **Q, double **R, int M, int N)</div><div class="ttdef"><b>Definition:</b> qr_decompose.h:127</div></div>
-<div class="ttc" id="afactorial__large__number_8c_html_ad8101f58545bd891ae8b6e11caadd7eb"><div class="ttname"><a href="../../d6/d3d/factorial__large__number_8c.html#ad8101f58545bd891ae8b6e11caadd7eb">new_number</a></div><div class="ttdeci">large_num * new_number(void)</div><div class="ttdef"><b>Definition:</b> factorial_large_number.c:22</div></div>
+<div class="ttc" id="afactorial__large__number_8c_html_ad8101f58545bd891ae8b6e11caadd7eb"><div class="ttname"><a href="../../d6/d3d/factorial__large__number_8c.html#ad8101f58545bd891ae8b6e11caadd7eb">new_number</a></div><div class="ttdeci">large_num * new_number(void)</div><div class="ttdef"><b>Definition:</b> factorial_large_number.c:23</div></div>
 <div class="ttc" id="astruct_node_html"><div class="ttname"><a href="../../db/d8b/struct_node.html">Node</a></div><div class="ttdef"><b>Definition:</b> middle_element_in_list.c:6</div></div>
 <div class="ttc" id="arealtime__stats_8c_html_aa54c915581fcc495489175a4386d59fd"><div class="ttname"><a href="../../dc/d47/realtime__stats_8c.html#aa54c915581fcc495489175a4386d59fd">test_function</a></div><div class="ttdeci">void test_function(const float *test_data, const int number_of_samples)</div><div class="ttdef"><b>Definition:</b> realtime_stats.c:91</div></div>
-<div class="ttc" id="afactorial__large__number_8c_html_a0ddf1224851353fc92bfbff6f499fa97"><div class="ttname"><a href="../../d6/d3d/factorial__large__number_8c.html#a0ddf1224851353fc92bfbff6f499fa97">main</a></div><div class="ttdeci">int main(int argc, char *argv[])</div><div class="ttdef"><b>Definition:</b> factorial_large_number.c:89</div></div>
-<div class="ttc" id="afactorial__large__number_8c_html_ad398ddbd594ca69a5e6dfc894925341e"><div class="ttname"><a href="../../d6/d3d/factorial__large__number_8c.html#ad398ddbd594ca69a5e6dfc894925341e">multiply</a></div><div class="ttdeci">void multiply(large_num *num, unsigned long n)</div><div class="ttdef"><b>Definition:</b> factorial_large_number.c:61</div></div>
+<div class="ttc" id="afactorial__large__number_8c_html_a0ddf1224851353fc92bfbff6f499fa97"><div class="ttname"><a href="../../d6/d3d/factorial__large__number_8c.html#a0ddf1224851353fc92bfbff6f499fa97">main</a></div><div class="ttdeci">int main(int argc, char *argv[])</div><div class="ttdef"><b>Definition:</b> factorial_large_number.c:93</div></div>
+<div class="ttc" id="afactorial__large__number_8c_html_ad398ddbd594ca69a5e6dfc894925341e"><div class="ttname"><a href="../../d6/d3d/factorial__large__number_8c.html#ad398ddbd594ca69a5e6dfc894925341e">multiply</a></div><div class="ttdeci">void multiply(large_num *num, unsigned long n)</div><div class="ttdef"><b>Definition:</b> factorial_large_number.c:65</div></div>
 <div class="ttc" id="aqr__decompose_8h_html"><div class="ttname"><a href="../../d4/d68/qr__decompose_8h.html">qr_decompose.h</a></div></div>
 <div class="ttc" id="astruct__big__int_html_a187538b984c86d7cfdb13e297e7f3564"><div class="ttname"><a href="../../dc/d77/struct__big__int.html#a187538b984c86d7cfdb13e297e7f3564">_big_int::next_digit</a></div><div class="ttdeci">struct _big_int * next_digit</div><div class="ttdef"><b>Definition:</b> sol1.c:12</div></div>
 <div class="ttc" id="aqr__decompose_8h_html_a90562ce8c3707401e9c5809dece68d6a"><div class="ttname"><a href="../../d4/d68/qr__decompose_8h.html#a90562ce8c3707401e9c5809dece68d6a">print_matrix</a></div><div class="ttdeci">void print_matrix(double **A, int M, int N)</div><div class="ttdef"><b>Definition:</b> qr_decompose.h:18</div></div>
 <div class="ttc" id="aqr__decomposition_8c_html_a840291bc02cba5474a4cb46a9b9566fe"><div class="ttname"><a href="../../d5/d23/qr__decomposition_8c.html#a840291bc02cba5474a4cb46a9b9566fe">main</a></div><div class="ttdeci">int main(void)</div><div class="ttdef"><b>Definition:</b> qr_decomposition.c:16</div></div>
 <div class="ttc" id="arealtime__stats_8c_html_a3c04138a5bfe5d72780bb7e82a18e627"><div class="ttname"><a href="../../dc/d47/realtime__stats_8c.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a></div><div class="ttdeci">int main(int argc, char **argv)</div><div class="ttdef"><b>Definition:</b> realtime_stats.c:127</div></div>
 <div class="ttc" id="aqr__eigen__values_8c_html_a741477692f001a805b0fea942c9dc2b9"><div class="ttname"><a href="../../d7/d50/qr__eigen__values_8c.html#a741477692f001a805b0fea942c9dc2b9">mat_mul</a></div><div class="ttdeci">double ** mat_mul(double **A, double **B, double **OUT, int R1, int C1, int R2, int C2)</div><div class="ttdef"><b>Definition:</b> qr_eigen_values.c:49</div></div>
-<div class="ttc" id="afactorial__large__number_8c_html_ab5c854e0df76165c31899e69eceeeaae"><div class="ttname"><a href="../../d6/d3d/factorial__large__number_8c.html#ab5c854e0df76165c31899e69eceeeaae">delete_number</a></div><div class="ttdeci">void delete_number(large_num *num)</div><div class="ttdef"><b>Definition:</b> factorial_large_number.c:34</div></div>
+<div class="ttc" id="afactorial__large__number_8c_html_ab5c854e0df76165c31899e69eceeeaae"><div class="ttname"><a href="../../d6/d3d/factorial__large__number_8c.html#ab5c854e0df76165c31899e69eceeeaae">delete_number</a></div><div class="ttdeci">void delete_number(large_num *num)</div><div class="ttdef"><b>Definition:</b> factorial_large_number.c:36</div></div>
 <div class="ttc" id="astruct__big__int_html_ad8405989a924410942b39ec0e9fef30b"><div class="ttname"><a href="../../dc/d77/struct__big__int.html#ad8405989a924410942b39ec0e9fef30b">_big_int::prev_digit</a></div><div class="ttdeci">struct _big_int * prev_digit</div><div class="ttdef"><b>Definition:</b> sol1.c:13</div></div>
 <div class="ttc" id="astruct__big__int_html"><div class="ttname"><a href="../../dc/d77/struct__big__int.html">_big_int</a></div><div class="ttdef"><b>Definition:</b> sol1.c:10</div></div>
 <div class="ttc" id="arealtime__stats_8c_html_a34be233a9200ee2065f6b7b27e2d9a96"><div class="ttname"><a href="../../dc/d47/realtime__stats_8c.html#a34be233a9200ee2065f6b7b27e2d9a96">stats_computer2</a></div><div class="ttdeci">void stats_computer2(float x, float *mean, float *variance, float *std)</div><div class="ttdef"><b>Definition:</b> realtime_stats.c:60</div></div>
 <div class="ttc" id="astruct__large__num_html_afaf353a072cf050ac86ac6e39868bcc9"><div class="ttname"><a href="../../d3/d5a/struct__large__num.html#afaf353a072cf050ac86ac6e39868bcc9">_large_num::digits</a></div><div class="ttdeci">char * digits</div><div class="ttdef"><b>Definition:</b> factorial_large_number.c:15</div></div>
 <div class="ttc" id="astructtnode_html"><div class="ttname"><a href="../../d8/d7a/structtnode.html">tnode</a></div><div class="ttdef"><b>Definition:</b> multikey_quick_sort.c:205</div></div>
 <div class="ttc" id="aqr__eigen__values_8c_html_a7d96c5e4ae1bd6d29791bcc23a4cb2b0"><div class="ttname"><a href="../../d7/d50/qr__eigen__values_8c.html#a7d96c5e4ae1bd6d29791bcc23a4cb2b0">create_matrix</a></div><div class="ttdeci">void create_matrix(double **A, int N)</div><div class="ttdef"><b>Definition:</b> qr_eigen_values.c:19</div></div>
-<div class="ttc" id="afactorial__large__number_8c_html_af2869d36c22a2b8f93d3166a84e124b3"><div class="ttname"><a href="../../d6/d3d/factorial__large__number_8c.html#af2869d36c22a2b8f93d3166a84e124b3">add_digit</a></div><div class="ttdeci">void add_digit(large_num *num, unsigned int value)</div><div class="ttdef"><b>Definition:</b> factorial_large_number.c:43</div></div>
+<div class="ttc" id="afactorial__large__number_8c_html_af2869d36c22a2b8f93d3166a84e124b3"><div class="ttname"><a href="../../d6/d3d/factorial__large__number_8c.html#af2869d36c22a2b8f93d3166a84e124b3">add_digit</a></div><div class="ttdeci">void add_digit(large_num *num, unsigned int value)</div><div class="ttdef"><b>Definition:</b> factorial_large_number.c:47</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">
