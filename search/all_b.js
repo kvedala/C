@@ -1,10 +1,8 @@
 var searchData=
 [
-  ['new_5fadaline_48',['new_adaline',['../dd/d8c/adaline__learning_8c.html#acd88962c5f6341e43cbc69b4a7d3485b',1,'adaline_learning.c']]],
-  ['new_5fnumber_49',['new_number',['../d6/d3d/factorial__large__number_8c.html#ad8101f58545bd891ae8b6e11caadd7eb',1,'factorial_large_number.c']]],
-  ['newton_5fraphson_5froot_2ec_50',['newton_raphson_root.c',['../dd/d08/newton__raphson__root_8c.html',1,'']]],
-  ['next_5fdigit_51',['next_digit',['../dc/d77/struct__big__int.html#a187538b984c86d7cfdb13e297e7f3564',1,'_big_int']]],
-  ['node_52',['Node',['../db/d8b/struct_node.html',1,'Node'],['../d5/da1/structnode.html',1,'node']]],
-  ['num_5fdigits_53',['num_digits',['../d3/d5a/struct__large__num.html#a3fd11c0b413bbabfb8737d4ae73e5aa0',1,'_large_num']]],
-  ['num_5fweights_54',['num_weights',['../d2/daa/structadaline.html#a53314e737a0a5ff4552a03bcc9dafbc1',1,'adaline']]]
+  ['main_48',['main',['../dd/d8c/adaline__learning_8c.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;adaline_learning.c'],['../d3/d1e/kohonen__som_8c.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;kohonen_som.c'],['../d6/d3d/factorial__large__number_8c.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;factorial_large_number.c'],['../d4/d99/fibonacci__fast_8c.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;fibonacci_fast.c'],['../da/d38/durand__kerner__roots_8c.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;durand_kerner_roots.c'],['../dd/d08/newton__raphson__root_8c.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;newton_raphson_root.c'],['../d5/d23/qr__decomposition_8c.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main(void):&#160;qr_decomposition.c'],['../d7/d50/qr__eigen__values_8c.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;qr_eigen_values.c'],['../dc/d47/realtime__stats_8c.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;realtime_stats.c']]],
+  ['mat_5fmul_49',['mat_mul',['../d7/d50/qr__eigen__values_8c.html#a741477692f001a805b0fea942c9dc2b9',1,'qr_eigen_values.c']]],
+  ['max_5fheap_50',['max_heap',['../d0/d8a/structmax__heap.html',1,'']]],
+  ['min_5fheap_51',['min_heap',['../de/dce/structmin__heap.html',1,'']]],
+  ['multiply_52',['multiply',['../d6/d3d/factorial__large__number_8c.html#ad398ddbd594ca69a5e6dfc894925341e',1,'factorial_large_number.c']]]
 ];

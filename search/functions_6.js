@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['new_5fadaline_141',['new_adaline',['../dd/d8c/adaline__learning_8c.html#acd88962c5f6341e43cbc69b4a7d3485b',1,'adaline_learning.c']]],
-  ['new_5fnumber_142',['new_number',['../d6/d3d/factorial__large__number_8c.html#ad8101f58545bd891ae8b6e11caadd7eb',1,'factorial_large_number.c']]]
+  ['kohonen_5fsom_5ftracer_152',['kohonen_som_tracer',['../d3/d1e/kohonen__som_8c.html#aeaeffbff2be4d5d15b0d4f10f846abde',1,'kohonen_som.c']]]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['d_5ffunc_130',['d_func',['../dd/d08/newton__raphson__root_8c.html#ae713a1fd0c275fbec7edf263ac2c0337',1,'newton_raphson_root.c']]],
-  ['delete_5fadaline_131',['delete_adaline',['../dd/d8c/adaline__learning_8c.html#a6f35caa3084772cc126ac7b20f67f665',1,'adaline_learning.c']]],
-  ['delete_5fnumber_132',['delete_number',['../d6/d3d/factorial__large__number_8c.html#ab5c854e0df76165c31899e69eceeeaae',1,'factorial_large_number.c']]]
+  ['check_5ftermination_139',['check_termination',['../da/d38/durand__kerner__roots_8c.html#a26d5695ebed0818a3e7cf4b10aacab52',1,'durand_kerner_roots.c']]],
+  ['complex_5fstr_140',['complex_str',['../da/d38/durand__kerner__roots_8c.html#afa5b04ce11475d67049cba8273741fb7',1,'durand_kerner_roots.c']]],
+  ['create_5fmatrix_141',['create_matrix',['../d7/d50/qr__eigen__values_8c.html#a7d96c5e4ae1bd6d29791bcc23a4cb2b0',1,'qr_eigen_values.c']]]
 ];

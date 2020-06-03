@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['weights_86',['weights',['../d2/daa/structadaline.html#a32e58c03fd9258709eae6138ad0ec657',1,'adaline']]],
-  ['word_5fcount_5fword_87',['word_count_word',['../df/ddb/structword__count__word.html',1,'']]]
+  ['update_5fweights_91',['update_weights',['../d3/d1e/kohonen__som_8c.html#a9c98203f55242ff7a8f45a6370840e66',1,'kohonen_som.c']]]
 ];

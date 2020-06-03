@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['check_5ftermination_127',['check_termination',['../da/d38/durand__kerner__roots_8c.html#a26d5695ebed0818a3e7cf4b10aacab52',1,'durand_kerner_roots.c']]],
-  ['complex_5fstr_128',['complex_str',['../da/d38/durand__kerner__roots_8c.html#afa5b04ce11475d67049cba8273741fb7',1,'durand_kerner_roots.c']]],
-  ['create_5fmatrix_129',['create_matrix',['../d7/d50/qr__eigen__values_8c.html#a7d96c5e4ae1bd6d29791bcc23a4cb2b0',1,'qr_eigen_values.c']]]
+  ['activation_137',['activation',['../dd/d8c/adaline__learning_8c.html#a7b12b6513314c975303b5a698608322f',1,'adaline_learning.c']]],
+  ['add_5fdigit_138',['add_digit',['../d6/d3d/factorial__large__number_8c.html#af2869d36c22a2b8f93d3166a84e124b3',1,'factorial_large_number.c']]]
 ];

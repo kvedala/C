@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['l_39',['L',['../df/db3/struct_l.html',1,'']]],
-  ['large_5fnum_40',['large_num',['../d6/d3d/factorial__large__number_8c.html#ab54882961780c41a4929a6d390f6522d',1,'factorial_large_number.c']]],
-  ['list_20of_20all_20files_41',['List of all files',['../d5/d88/md__d_i_r_e_c_t_o_r_y.html',1,'']]],
-  ['leetcode_42',['LeetCode',['../df/d58/md_leetcode__r_e_a_d_m_e.html',1,'']]]
+  ['kohonen_5fsom_2ec_42',['kohonen_som.c',['../d3/d1e/kohonen__som_8c.html',1,'']]],
+  ['kohonen_5fsom_5ftracer_43',['kohonen_som_tracer',['../d3/d1e/kohonen__som_8c.html#aeaeffbff2be4d5d15b0d4f10f846abde',1,'kohonen_som.c']]]
 ];
