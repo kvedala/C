@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['large_5fnum_184',['large_num',['../d6/d3d/factorial__large__number_8c.html#ab54882961780c41a4929a6d390f6522d',1,'factorial_large_number.c']]]
+  ['big_5fint_268',['big_int',['../db/d80/problem__20_2sol1_8c.html#a62cbbd106aad52daadb9403a07d0da32',1,'sol1.c']]]
 ];

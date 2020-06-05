@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['eta_178',['eta',['../d2/daa/structadaline.html#a85dbd7cce6195d11ebb388220b96bde2',1,'adaline']]]
+  ['digits_260',['digits',['../d3/d5a/struct__large__num.html#afaf353a072cf050ac86ac6e39868bcc9',1,'_large_num']]]
 ];

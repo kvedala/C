@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['bstiterator_10',['BSTIterator',['../d4/d02/struct_b_s_t_iterator.html',1,'']]]
+  ['big_5fint_12',['big_int',['../db/d80/problem__20_2sol1_8c.html#a62cbbd106aad52daadb9403a07d0da32',1,'sol1.c']]],
+  ['bstiterator_13',['BSTIterator',['../d4/d02/struct_b_s_t_iterator.html',1,'']]]
 ];

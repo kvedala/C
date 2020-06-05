@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['update_5fweights_172',['update_weights',['../d0/d46/kohonen__som__trace_8c.html#a9c98203f55242ff7a8f45a6370840e66',1,'kohonen_som_trace.c']]]
+  ['remove_5fdigits_238',['remove_digits',['../db/d80/problem__20_2sol1_8c.html#a54a02c4b963fdb16f24959e0137763f1',1,'sol1.c']]]
 ];

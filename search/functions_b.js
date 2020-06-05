@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['save_5fnd_5fdata_162',['save_nd_data',['../d0/d46/kohonen__som__trace_8c.html#a7b84b14e60f47812b581d1f93057c85a',1,'kohonen_som_trace.c']]],
-  ['stats_5fcomputer1_163',['stats_computer1',['../dc/d47/realtime__stats_8c.html#a63ddcdaab24f722f0963fa2fbe0ae628',1,'realtime_stats.c']]],
-  ['stats_5fcomputer2_164',['stats_computer2',['../dc/d47/realtime__stats_8c.html#a34be233a9200ee2065f6b7b27e2d9a96',1,'realtime_stats.c']]]
+  ['poly_5ffunction_233',['poly_function',['../da/d38/durand__kerner__roots_8c.html#adf4ae062a028c6faf2b96c9c1eb343af',1,'durand_kerner_roots.c']]],
+  ['predict_234',['predict',['../dd/d8c/adaline__learning_8c.html#a4db1ba00a7f282100ea31a94e32bd7a3',1,'adaline_learning.c']]],
+  ['print_5fmatrix_235',['print_matrix',['../d4/d68/qr__decompose_8h.html#a90562ce8c3707401e9c5809dece68d6a',1,'qr_decompose.h']]],
+  ['print_5fnumber_236',['print_number',['../db/d01/problem__13_2sol1_8c.html#a248adc917818cc6666d8bc679a660319',1,'print_number(uint8_t *number, uint8_t N, int8_t num_digits_to_print):&#160;sol1.c'],['../d8/d32/problem__25_2sol1_8c.html#abe5bc1f170b2108a19d0a16d30bd3235',1,'print_number(unsigned char *number, int N):&#160;sol1.c']]]
 ];

@@ -12,7 +12,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Library functions to compute QR decomposition of a given matrix.">
 <polygon fill="#bfbfbf" stroke="black" points="65,-67.5 65,-97.5 178,-97.5 178,-67.5 65,-67.5"/>
 <text text-anchor="start" x="73" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">numerical_methods/qr</text>
 <text text-anchor="middle" x="121.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">_decompose.h</text>
@@ -22,7 +22,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d5/d23/qr__decomposition_8c.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="../../d5/d23/qr__decomposition_8c.html" target="_top" xlink:title="Program to compute the QR decomposition of a given matrix.">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 113,-30.5 113,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">numerical_methods/qr</text>
 <text text-anchor="middle" x="56.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">_decomposition.c</text>
@@ -38,7 +38,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d7/d50/qr__eigen__values_8c.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="../../d7/d50/qr__eigen__values_8c.html" target="_top" xlink:title="Compute real eigen values and eigen vectors of a symmetric matrix using QR decomposition method.">
 <polygon fill="white" stroke="black" points="131,-0.5 131,-30.5 244,-30.5 244,-0.5 131,-0.5"/>
 <text text-anchor="start" x="139" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">numerical_methods/qr</text>
 <text text-anchor="middle" x="187.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">_eigen_values.c</text>

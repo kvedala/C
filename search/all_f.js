@@ -1,4 +1,9 @@
 var searchData=
 [
-  ['realtime_5fstats_2ec_72',['realtime_stats.c',['../dc/d47/realtime__stats_8c.html',1,'']]]
+  ['qr_5fdecompose_101',['qr_decompose',['../d4/d68/qr__decompose_8h.html#a45c7640d9d22c89c11beb1f567843c56',1,'qr_decompose.h']]],
+  ['qr_5fdecompose_2eh_102',['qr_decompose.h',['../d4/d68/qr__decompose_8h.html',1,'']]],
+  ['qr_5fdecomposition_2ec_103',['qr_decomposition.c',['../d5/d23/qr__decomposition_8c.html',1,'']]],
+  ['qr_5feigen_5fvalues_2ec_104',['qr_eigen_values.c',['../d7/d50/qr__eigen__values_8c.html',1,'']]],
+  ['queue_105',['queue',['../d2/d36/structqueue.html',1,'']]],
+  ['queuerep_106',['QueueRep',['../d0/d10/struct_queue_rep.html',1,'']]]
 ];

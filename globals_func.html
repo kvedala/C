@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -55,6 +59,22 @@ $(function() {
 /* @license-end */</script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('globals_func.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -85,6 +105,10 @@ $(function() {
 </li>
 <li>add_digit()
 : <a class="el" href="d6/d3d/factorial__large__number_8c.html#af2869d36c22a2b8f93d3166a84e124b3">factorial_large_number.c</a>
+, <a class="el" href="db/d80/problem__20_2sol1_8c.html#afc373c28da6b17636528edcc97fb5f86">sol1.c</a>
+</li>
+<li>add_numbers()
+: <a class="el" href="db/d01/problem__13_2sol1_8c.html#ad51742ca5a5c99e860bdf30299163bf2">sol1.c</a>
 </li>
 </ul>
 
@@ -93,8 +117,17 @@ $(function() {
 <li>check_termination()
 : <a class="el" href="da/d38/durand__kerner__roots_8c.html#a26d5695ebed0818a3e7cf4b10aacab52">durand_kerner_roots.c</a>
 </li>
+<li>collatz()
+: <a class="el" href="d4/dea/problem__14_2sol1_8c.html#a81c1df5c17cb16bcc16e346fcff6fa80">sol1.c</a>
+</li>
+<li>compare()
+: <a class="el" href="d1/df9/problem__26_2sol1_8c.html#ac70138609ef6aa6fabca57aca8681e83">sol1.c</a>
+</li>
 <li>complex_str()
 : <a class="el" href="da/d38/durand__kerner__roots_8c.html#afa5b04ce11475d67049cba8273741fb7">durand_kerner_roots.c</a>
+</li>
+<li>count_divisors()
+: <a class="el" href="d7/d1f/problem__12_2sol1_8c.html#aa6ce6271f6156e219f9b290717f5a222">sol1.c</a>
 </li>
 <li>create_matrix()
 : <a class="el" href="d7/d50/qr__eigen__values_8c.html#a7d96c5e4ae1bd6d29791bcc23a4cb2b0">qr_eigen_values.c</a>
@@ -132,14 +165,67 @@ $(function() {
 
 
 <h3><a id="index_g"></a>- g -</h3><ul>
+<li>gcd()
+: <a class="el" href="df/de7/problem__5_2sol_8c.html#a59347107cbfdf48d51108e50280e760d">sol.c</a>
+</li>
 <li>get_clock_diff()
 : <a class="el" href="d0/d46/kohonen__som__trace_8c.html#a2256c10b16edba377b64a44b6c656908">kohonen_som_trace.c</a>
+</li>
+<li>get_digits()
+: <a class="el" href="d8/d32/problem__25_2sol1_8c.html#a2b90df6bfbf0d18cd9a19c1a71453783">sol1.c</a>
+</li>
+<li>get_divisors()
+: <a class="el" href="d4/d83/problem__401_2sol1_8c.html#a7380e14d595d560007b02ce516b6b215">sol1.c</a>
 </li>
 <li>get_min_1d()
 : <a class="el" href="d0/d46/kohonen__som__trace_8c.html#a0a292ebd954c568934b1fd06666d27e6">kohonen_som_trace.c</a>
 </li>
+<li>get_month_days()
+: <a class="el" href="dd/df0/problem__19_2sol1_8c.html#ab7f9ad087f124b8e0615aa535b4c8a75">sol1.c</a>
+</li>
+<li>get_next_abundant()
+: <a class="el" href="d7/ddb/problem__23_2sol1_8c.html#ac5d600bf3077f4188afc4c5cd2c40eaf">sol1.c</a>
+, <a class="el" href="d4/dbd/problem__23_2sol2_8c.html#ac5d600bf3077f4188afc4c5cd2c40eaf">sol2.c</a>
+</li>
+<li>get_number()
+: <a class="el" href="db/d01/problem__13_2sol1_8c.html#ac260f58785fb20eb09bb35385a7d47f8">sol1.c</a>
+</li>
+<li>get_perfect_number()
+: <a class="el" href="d7/ddb/problem__23_2sol1_8c.html#a1aca7f530f82b27100262adba9e7556b">sol1.c</a>
+, <a class="el" href="d4/dbd/problem__23_2sol2_8c.html#a1aca7f530f82b27100262adba9e7556b">sol2.c</a>
+</li>
+<li>get_product()
+: <a class="el" href="dc/d63/problem__8_2sol1_8c.html#a9ffc8845f17b01a353767a40a3adf7bd">sol1.c</a>
+</li>
 <li>get_weights_str()
 : <a class="el" href="dd/d8c/adaline__learning_8c.html#a00dc6134ca22a12e0fd9cac54d601c2d">adaline_learning.c</a>
+</li>
+</ul>
+
+
+<h3><a id="index_i"></a>- i -</h3><ul>
+<li>is_abundant()
+: <a class="el" href="d7/ddb/problem__23_2sol1_8c.html#a4f128410e6582fe26488e2316cc96e17">sol1.c</a>
+, <a class="el" href="d4/dbd/problem__23_2sol2_8c.html#a34f4ad85151e3a43368ae67f42347f56">sol2.c</a>
+</li>
+<li>is_in()
+: <a class="el" href="d4/d83/problem__401_2sol1_8c.html#a4441a6d27134cf3aed05727800d99456">sol1.c</a>
+</li>
+<li>is_leap_year()
+: <a class="el" href="dd/df0/problem__19_2sol1_8c.html#a6561b1adc8a19c092679b9874da24e2e">sol1.c</a>
+</li>
+<li>is_palindromic()
+: <a class="el" href="d0/d6c/problem__4_2sol_8c.html#adf9bea8d35848959bde5b3f277edf0c4">sol.c</a>
+</li>
+<li>is_prime()
+: <a class="el" href="d0/d6d/problem__10_2sol1_8c.html#acc871ab6bfead702e983a7f9c412915f">sol1.c</a>
+</li>
+<li>is_sum_of_abundant()
+: <a class="el" href="d7/ddb/problem__23_2sol1_8c.html#a3ab61b5a1c4f2288625d160aa0ea8478">sol1.c</a>
+, <a class="el" href="d4/dbd/problem__23_2sol2_8c.html#a3ab61b5a1c4f2288625d160aa0ea8478">sol2.c</a>
+</li>
+<li>isprime()
+: <a class="el" href="d7/dd3/problem__3_2sol1_8c.html#aa0f4796aa2e89c327f827bd55f5cb305">sol1.c</a>
 </li>
 </ul>
 
@@ -151,6 +237,16 @@ $(function() {
 </ul>
 
 
+<h3><a id="index_l"></a>- l -</h3><ul>
+<li>lazy_sort()
+: <a class="el" href="dd/d8b/problem__22_2sol1_8c.html#ae359b8a4656b164c91ef91a084c15c9d">sol1.c</a>
+</li>
+<li>lcm()
+: <a class="el" href="df/de7/problem__5_2sol_8c.html#ae9606f1867e9921867d6572f51377b4c">sol.c</a>
+</li>
+</ul>
+
+
 <h3><a id="index_m"></a>- m -</h3><ul>
 <li>main()
 : <a class="el" href="dd/d8c/adaline__learning_8c.html#a3c04138a5bfe5d72780bb7e82a18e627">adaline_learning.c</a>
@@ -158,10 +254,32 @@ $(function() {
 , <a class="el" href="d6/d3d/factorial__large__number_8c.html#a0ddf1224851353fc92bfbff6f499fa97">factorial_large_number.c</a>
 , <a class="el" href="d4/d99/fibonacci__fast_8c.html#a0ddf1224851353fc92bfbff6f499fa97">fibonacci_fast.c</a>
 , <a class="el" href="da/d38/durand__kerner__roots_8c.html#a3c04138a5bfe5d72780bb7e82a18e627">durand_kerner_roots.c</a>
-, <a class="el" href="d5/d23/qr__decomposition_8c.html#a840291bc02cba5474a4cb46a9b9566fe">qr_decomposition.c</a>
 , <a class="el" href="dd/d08/newton__raphson__root_8c.html#a3c04138a5bfe5d72780bb7e82a18e627">newton_raphson_root.c</a>
-, <a class="el" href="d7/d50/qr__eigen__values_8c.html#a3c04138a5bfe5d72780bb7e82a18e627">qr_eigen_values.c</a>
+, <a class="el" href="d5/d23/qr__decomposition_8c.html#a840291bc02cba5474a4cb46a9b9566fe">qr_decomposition.c</a>
+, <a class="el" href="d0/d6c/problem__4_2sol_8c.html#a840291bc02cba5474a4cb46a9b9566fe">sol.c</a>
+, <a class="el" href="d7/d1f/problem__12_2sol1_8c.html#a3c04138a5bfe5d72780bb7e82a18e627">sol1.c</a>
+, <a class="el" href="d4/dbd/problem__23_2sol2_8c.html#a3c04138a5bfe5d72780bb7e82a18e627">sol2.c</a>
+, <a class="el" href="d1/d2f/problem__7_2sol_8c.html#a840291bc02cba5474a4cb46a9b9566fe">sol.c</a>
+, <a class="el" href="d6/d1b/sol4_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4">sol4.c</a>
+, <a class="el" href="d0/d6d/problem__10_2sol1_8c.html#a0ddf1224851353fc92bfbff6f499fa97">sol1.c</a>
+, <a class="el" href="d9/da7/problem__10_2sol2_8c.html#a0ddf1224851353fc92bfbff6f499fa97">sol2.c</a>
 , <a class="el" href="dc/d47/realtime__stats_8c.html#a3c04138a5bfe5d72780bb7e82a18e627">realtime_stats.c</a>
+, <a class="el" href="d4/d83/problem__401_2sol1_8c.html#a3c04138a5bfe5d72780bb7e82a18e627">sol1.c</a>
+, <a class="el" href="d0/d7f/so1_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4">so1.c</a>
+, <a class="el" href="db/d80/problem__20_2sol1_8c.html#a3c04138a5bfe5d72780bb7e82a18e627">sol1.c</a>
+, <a class="el" href="d2/dae/problem__1_2sol2_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4">sol2.c</a>
+, <a class="el" href="d4/d7b/problem__6_2sol_8c.html#a840291bc02cba5474a4cb46a9b9566fe">sol.c</a>
+, <a class="el" href="d1/df9/problem__26_2sol1_8c.html#a0ddf1224851353fc92bfbff6f499fa97">sol1.c</a>
+, <a class="el" href="d2/dbc/problem__3_2sol2_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4">sol2.c</a>
+, <a class="el" href="d7/d50/qr__eigen__values_8c.html#a3c04138a5bfe5d72780bb7e82a18e627">qr_eigen_values.c</a>
+, <a class="el" href="db/d01/problem__13_2sol1_8c.html#a840291bc02cba5474a4cb46a9b9566fe">sol1.c</a>
+, <a class="el" href="df/de7/problem__5_2sol_8c.html#a840291bc02cba5474a4cb46a9b9566fe">sol.c</a>
+, <a class="el" href="d8/d32/problem__25_2sol1_8c.html#a0ddf1224851353fc92bfbff6f499fa97">sol1.c</a>
+, <a class="el" href="d6/de3/sol3_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4">sol3.c</a>
+, <a class="el" href="dc/d63/problem__8_2sol1_8c.html#a0ddf1224851353fc92bfbff6f499fa97">sol1.c</a>
+, <a class="el" href="d2/d93/problem__8_2sol2_8c.html#a0ddf1224851353fc92bfbff6f499fa97">sol2.c</a>
+, <a class="el" href="df/da5/problem__9_2sol1_8c.html#a840291bc02cba5474a4cb46a9b9566fe">sol1.c</a>
+, <a class="el" href="d8/de0/problem__9_2sol2_8c.html#a840291bc02cba5474a4cb46a9b9566fe">sol2.c</a>
 </li>
 <li>mat_mul()
 : <a class="el" href="d7/d50/qr__eigen__values_8c.html#a741477692f001a805b0fea942c9dc2b9">qr_eigen_values.c</a>
@@ -179,6 +297,9 @@ $(function() {
 <li>new_number()
 : <a class="el" href="d6/d3d/factorial__large__number_8c.html#ad8101f58545bd891ae8b6e11caadd7eb">factorial_large_number.c</a>
 </li>
+<li>number_of_paths()
+: <a class="el" href="d7/d91/problem__15_2sol1_8c.html#a4650d1d3897633d84253f93433f601d6">sol1.c</a>
+</li>
 </ul>
 
 
@@ -192,6 +313,9 @@ $(function() {
 <li>print_matrix()
 : <a class="el" href="d4/d68/qr__decompose_8h.html#a90562ce8c3707401e9c5809dece68d6a">qr_decompose.h</a>
 </li>
+<li>print_number()
+: <a class="el" href="db/d01/problem__13_2sol1_8c.html#a248adc917818cc6666d8bc679a660319">sol1.c</a>
+</li>
 </ul>
 
 
@@ -202,15 +326,37 @@ $(function() {
 </ul>
 
 
+<h3><a id="index_r"></a>- r -</h3><ul>
+<li>remove_digits()
+: <a class="el" href="db/d80/problem__20_2sol1_8c.html#a54a02c4b963fdb16f24959e0137763f1">sol1.c</a>
+</li>
+</ul>
+
+
 <h3><a id="index_s"></a>- s -</h3><ul>
 <li>save_nd_data()
 : <a class="el" href="d0/d46/kohonen__som__trace_8c.html#a7b84b14e60f47812b581d1f93057c85a">kohonen_som_trace.c</a>
+</li>
+<li>shell_sort()
+: <a class="el" href="dd/d8b/problem__22_2sol1_8c.html#a5bc3659aa0949ea33118c95b1dee5f63">sol1.c</a>
+</li>
+<li>sigma()
+: <a class="el" href="d4/d83/problem__401_2sol1_8c.html#aaf964739be92adc2f500e7da11e3f6be">sol1.c</a>
+</li>
+<li>sigma2()
+: <a class="el" href="d4/d83/problem__401_2sol1_8c.html#a236548478af932f1115a71f601a68788">sol1.c</a>
 </li>
 <li>stats_computer1()
 : <a class="el" href="dc/d47/realtime__stats_8c.html#a63ddcdaab24f722f0963fa2fbe0ae628">realtime_stats.c</a>
 </li>
 <li>stats_computer2()
 : <a class="el" href="dc/d47/realtime__stats_8c.html#a34be233a9200ee2065f6b7b27e2d9a96">realtime_stats.c</a>
+</li>
+<li>sum_of_divisors()
+: <a class="el" href="df/d1a/problem__21_2sol1_8c.html#aacf4b7e708651d2164e86958f2c29c93">sol1.c</a>
+</li>
+<li>sum_of_primes()
+: <a class="el" href="d0/d6d/problem__10_2sol1_8c.html#ae3d987cb2ad0ddb0c3caa4c2506a20e5">sol1.c</a>
 </li>
 </ul>
 
@@ -221,8 +367,8 @@ $(function() {
 , <a class="el" href="d0/d46/kohonen__som__trace_8c.html#a1440a7779ac56f47a3f355ce4a8c7da0">kohonen_som_trace.c</a>
 </li>
 <li>test2()
-: <a class="el" href="d0/d46/kohonen__som__trace_8c.html#a0283886819c7c140a023582b7269e2d0">kohonen_som_trace.c</a>
-, <a class="el" href="dd/d8c/adaline__learning_8c.html#a05cc9a0acb524fde727a4d7b4a747ee6">adaline_learning.c</a>
+: <a class="el" href="dd/d8c/adaline__learning_8c.html#a05cc9a0acb524fde727a4d7b4a747ee6">adaline_learning.c</a>
+, <a class="el" href="d0/d46/kohonen__som__trace_8c.html#a0283886819c7c140a023582b7269e2d0">kohonen_som_trace.c</a>
 </li>
 <li>test3()
 : <a class="el" href="dd/d8c/adaline__learning_8c.html#a3f37b9f073f7e57fd0b39d70718af1b1">adaline_learning.c</a>
@@ -265,11 +411,14 @@ $(function() {
 </li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated on Fri Jun 5 2020 13:10:17 for Algorithms_in_C by &#160;<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.18
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated on Fri Jun 5 2020 18:16:38 for Algorithms_in_C by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
+  </ul>
+</div>
 </body>
 </html>

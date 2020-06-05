@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['qr_5fdecompose_161',['qr_decompose',['../d4/d68/qr__decompose_8h.html#a45c7640d9d22c89c11beb1f567843c56',1,'qr_decompose.h']]]
+  ['new_5fadaline_230',['new_adaline',['../dd/d8c/adaline__learning_8c.html#acd88962c5f6341e43cbc69b4a7d3485b',1,'adaline_learning.c']]],
+  ['new_5fnumber_231',['new_number',['../d6/d3d/factorial__large__number_8c.html#ad8101f58545bd891ae8b6e11caadd7eb',1,'factorial_large_number.c']]],
+  ['number_5fof_5fpaths_232',['number_of_paths',['../d7/d91/problem__15_2sol1_8c.html#a4650d1d3897633d84253f93433f601d6',1,'sol1.c']]]
 ];

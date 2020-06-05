@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['new_5fadaline_156',['new_adaline',['../dd/d8c/adaline__learning_8c.html#acd88962c5f6341e43cbc69b4a7d3485b',1,'adaline_learning.c']]],
-  ['new_5fnumber_157',['new_number',['../d6/d3d/factorial__large__number_8c.html#ad8101f58545bd891ae8b6e11caadd7eb',1,'factorial_large_number.c']]]
+  ['lazy_5fsort_225',['lazy_sort',['../dd/d8b/problem__22_2sol1_8c.html#ae359b8a4656b164c91ef91a084c15c9d',1,'sol1.c']]],
+  ['lcm_226',['lcm',['../df/de7/problem__5_2sol_8c.html#ae9606f1867e9921867d6572f51377b4c',1,'sol.c']]]
 ];
