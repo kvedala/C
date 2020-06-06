@@ -1,5 +1,11 @@
 var NAVTREEINDEX1 =
 {
+"d8/d81/md_project_euler__r_e_a_d_m_e.html":[9],
+"d8/da2/dynamic__array_8h_source.html":[11,0,0,2,0],
+"d8/de0/problem__9_2sol2_8c.html":[11,0,6,22,1],
+"d8/de0/problem__9_2sol2_8c.html#a840291bc02cba5474a4cb46a9b9566fe":[11,0,6,22,1,0],
+"d9/d41/md_data_structures_array__r_e_a_d_m_e.html":[2],
+"d9/d41/md_data_structures_array__r_e_a_d_m_e.html#autotoc_md6":[2,0],
 "d9/d41/md_data_structures_array__r_e_a_d_m_e.html#autotoc_md7":[2,1],
 "d9/da7/problem__10_2sol2_8c.html":[11,0,6,1,1],
 "d9/da7/problem__10_2sol2_8c.html#a0ddf1224851353fc92bfbff6f499fa97":[11,0,6,1,1,0],
@@ -49,6 +55,8 @@ var NAVTREEINDEX1 =
 "dc/d77/struct__big__int.html#a187538b984c86d7cfdb13e297e7f3564":[10,0,7,0],
 "dc/d77/struct__big__int.html#a273ee73fd755f2a99512cca5f0e09008":[10,0,7,2],
 "dc/d77/struct__big__int.html#ad8405989a924410942b39ec0e9fef30b":[10,0,7,1],
+"dc/d80/collatz_8c.html":[11,0,4,0],
+"dc/d80/collatz_8c.html#a0ddf1224851353fc92bfbff6f499fa97":[11,0,4,0,0],
 "dc/de3/hash__set_8h_source.html":[11,0,0,4,0],
 "dc/de5/structsubset.html":[10,0,31],
 "dc/de5/structsubset.html#a2cc3bbda6f758afb7bf8067eb8f07a10":[10,0,31,1],
@@ -147,6 +155,7 @@ var NAVTREEINDEX1 =
 "dir_b2dbfa46230fd9f775c32c1836ed3764.html":[11,0,6,15],
 "dir_b3d331eabd4234f247030c297aaf021c.html":[11,0,6],
 "dir_b6018f60d424a2ef7e4c942ac681e38b.html":[11,0,0,5],
+"dir_bb1b521853a9c46347182a9d10420771.html":[11,0,7],
 "dir_bd4a7dd282074645ef41b1ea31ac813a.html":[11,0,0,2],
 "dir_c7ef0fcb2f2095a74f0a3a1634dfc798.html":[11,0,0,0],
 "dir_d4c35186c199e728d69dee6bf5b2473c.html":[11,0,6,22],
@@ -164,8 +173,8 @@ var NAVTREEINDEX1 =
 "globals_func.html":[11,1,1],
 "globals_type.html":[11,1,3],
 "globals_vars.html":[11,1,2],
-"index.html":[],
 "index.html":[0],
+"index.html":[],
 "index.html#autotoc_md32":[0],
 "index.html#autotoc_md33":[1],
 "pages.html":[]

@@ -79,7 +79,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d9/d41/md_data_structures_array__r_e_a_d_m_e.html#autotoc_md7"
+"d8/d81/md_project_euler__r_e_a_d_m_e.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

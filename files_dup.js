@@ -6,5 +6,6 @@ var files_dup =
     [ "machine_learning", "dir_3343723ae086de42ee4ca9774da3a13f.html", "dir_3343723ae086de42ee4ca9774da3a13f" ],
     [ "misc", "dir_a52f4d3d586a58b02f3a4ddf0a992157.html", "dir_a52f4d3d586a58b02f3a4ddf0a992157" ],
     [ "numerical_methods", "dir_9c6faab82c22511b50177aa2e38e2780.html", "dir_9c6faab82c22511b50177aa2e38e2780" ],
-    [ "project_euler", "dir_b3d331eabd4234f247030c297aaf021c.html", "dir_b3d331eabd4234f247030c297aaf021c" ]
+    [ "project_euler", "dir_b3d331eabd4234f247030c297aaf021c.html", "dir_b3d331eabd4234f247030c297aaf021c" ],
+    [ "sorting", "dir_bb1b521853a9c46347182a9d10420771.html", "dir_bb1b521853a9c46347182a9d10420771" ]
 ];
