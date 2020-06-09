@@ -1,10 +1,13 @@
 var searchData=
 [
-  ['test1_262',['test1',['../dd/d8c/adaline__learning_8c.html#ab4ecb3accf5d9e0263087e7265bbe3a9',1,'test1(double eta):&#160;adaline_learning.c'],['../d0/d46/kohonen__som__trace_8c.html#a1440a7779ac56f47a3f355ce4a8c7da0',1,'test1():&#160;kohonen_som_trace.c']]],
-  ['test2_263',['test2',['../dd/d8c/adaline__learning_8c.html#a05cc9a0acb524fde727a4d7b4a747ee6',1,'test2(double eta):&#160;adaline_learning.c'],['../d0/d46/kohonen__som__trace_8c.html#a0283886819c7c140a023582b7269e2d0',1,'test2():&#160;kohonen_som_trace.c']]],
-  ['test3_264',['test3',['../dd/d8c/adaline__learning_8c.html#a3f37b9f073f7e57fd0b39d70718af1b1',1,'test3(double eta):&#160;adaline_learning.c'],['../d0/d46/kohonen__som__trace_8c.html#a6d0455dd5c30adda100e95f0423c786e',1,'test3():&#160;kohonen_som_trace.c']]],
-  ['test_5f3d_5fclasses_265',['test_3d_classes',['../d0/d46/kohonen__som__trace_8c.html#a41ae16442e3e5b891a58d2e5932a2cd0',1,'kohonen_som_trace.c']]],
-  ['test_5fcircle_266',['test_circle',['../d0/d46/kohonen__som__trace_8c.html#a107f00650b8041f77767927073ddddb8',1,'kohonen_som_trace.c']]],
-  ['test_5ffunction_267',['test_function',['../dc/d47/realtime__stats_8c.html#aa54c915581fcc495489175a4386d59fd',1,'realtime_stats.c']]],
-  ['test_5flamniscate_268',['test_lamniscate',['../d0/d46/kohonen__som__trace_8c.html#aa2246f940155472084ee461f3685d614',1,'kohonen_som_trace.c']]]
+  ['save_5fnd_5fdata_255',['save_nd_data',['../d0/d46/kohonen__som__trace_8c.html#a7b84b14e60f47812b581d1f93057c85a',1,'kohonen_som_trace.c']]],
+  ['shell_5fsort_256',['shell_sort',['../dd/d8b/problem__22_2sol1_8c.html#a5bc3659aa0949ea33118c95b1dee5f63',1,'shell_sort(char data[][MAX_NAME_LEN], int LEN):&#160;sol1.c'],['../d6/ded/shell__sort2_8c.html#a5bc16eaf3ffe6a6ab66780dd445904c0',1,'shell_sort(int *array, long LEN):&#160;shell_sort2.c']]],
+  ['show_5fdata_257',['show_data',['../d6/ded/shell__sort2_8c.html#aeccaf61ff47279384d1dba8d869d5c2f',1,'shell_sort2.c']]],
+  ['sigma_258',['sigma',['../d4/d83/problem__401_2sol1_8c.html#aaf964739be92adc2f500e7da11e3f6be',1,'sol1.c']]],
+  ['sigma2_259',['sigma2',['../d4/d83/problem__401_2sol1_8c.html#a236548478af932f1115a71f601a68788',1,'sol1.c']]],
+  ['stats_5fcomputer1_260',['stats_computer1',['../dc/d47/realtime__stats_8c.html#a63ddcdaab24f722f0963fa2fbe0ae628',1,'realtime_stats.c']]],
+  ['stats_5fcomputer2_261',['stats_computer2',['../dc/d47/realtime__stats_8c.html#a34be233a9200ee2065f6b7b27e2d9a96',1,'realtime_stats.c']]],
+  ['sum_5fof_5fdivisors_262',['sum_of_divisors',['../df/d1a/problem__21_2sol1_8c.html#aacf4b7e708651d2164e86958f2c29c93',1,'sol1.c']]],
+  ['sum_5fof_5fprimes_263',['sum_of_primes',['../d0/d6d/problem__10_2sol1_8c.html#ae3d987cb2ad0ddb0c3caa4c2506a20e5',1,'sol1.c']]],
+  ['swap_264',['swap',['../d6/ded/shell__sort2_8c.html#a4b9708d87be7a409eff20e5e7e8b43c8',1,'shell_sort2.c']]]
 ];

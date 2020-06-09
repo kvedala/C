@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['poly_5ffunction_246',['poly_function',['../da/d38/durand__kerner__roots_8c.html#adf4ae062a028c6faf2b96c9c1eb343af',1,'durand_kerner_roots.c']]],
-  ['predict_247',['predict',['../dd/d8c/adaline__learning_8c.html#a4db1ba00a7f282100ea31a94e32bd7a3',1,'adaline_learning.c']]],
-  ['print_5fmatrix_248',['print_matrix',['../d4/d68/qr__decompose_8h.html#a90562ce8c3707401e9c5809dece68d6a',1,'qr_decompose.h']]],
-  ['print_5fnumber_249',['print_number',['../db/d01/problem__13_2sol1_8c.html#a248adc917818cc6666d8bc679a660319',1,'print_number(uint8_t *number, uint8_t N, int8_t num_digits_to_print):&#160;sol1.c'],['../d8/d32/problem__25_2sol1_8c.html#abe5bc1f170b2108a19d0a16d30bd3235',1,'print_number(unsigned char *number, int N):&#160;sol1.c']]]
+  ['new_5fadaline_246',['new_adaline',['../dd/d8c/adaline__learning_8c.html#acd88962c5f6341e43cbc69b4a7d3485b',1,'adaline_learning.c']]],
+  ['new_5fnumber_247',['new_number',['../d6/d3d/factorial__large__number_8c.html#ad8101f58545bd891ae8b6e11caadd7eb',1,'factorial_large_number.c']]],
+  ['number_5fof_5fpaths_248',['number_of_paths',['../d7/d91/problem__15_2sol1_8c.html#a4650d1d3897633d84253f93433f601d6',1,'sol1.c']]]
 ];
