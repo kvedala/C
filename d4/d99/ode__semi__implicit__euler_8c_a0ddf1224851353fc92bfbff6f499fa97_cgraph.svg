@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d4/d99/ode__semi__implicit__euler_8c.html#ad80059877222f885b549f2d0a3dc6b55" target="_top" xlink:title="Compute approximation using the midpoint&#45;Euler method in the given limits.">
+<g id="a_node3"><a xlink:href="../../d4/d99/ode__semi__implicit__euler_8c.html#ad80059877222f885b549f2d0a3dc6b55" target="_top" xlink:title="Compute approximation using the semi&#45;implicit&#45;Euler method in the given limits.">
 <polygon fill="white" stroke="black" points="74,-0.5 74,-19.5 174,-19.5 174,-0.5 74,-0.5"/>
 <text text-anchor="middle" x="124" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">semi_implicit_euler</text>
 </a>
