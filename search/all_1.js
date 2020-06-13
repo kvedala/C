@@ -7,6 +7,7 @@ var searchData=
   ['adaline_5flearning_2ec_7',['adaline_learning.c',['../dd/d8c/adaline__learning_8c.html',1,'']]],
   ['add_5fdigit_8',['add_digit',['../d6/d3d/factorial__large__number_8c.html#af2869d36c22a2b8f93d3166a84e124b3',1,'add_digit(large_num *num, unsigned int value):&#160;factorial_large_number.c'],['../db/d80/problem__20_2sol1_8c.html#afc373c28da6b17636528edcc97fb5f86',1,'add_digit(big_int *digit, char value):&#160;sol1.c']]],
   ['add_5fnumbers_9',['add_numbers',['../db/d01/problem__13_2sol1_8c.html#ad51742ca5a5c99e860bdf30299163bf2',1,'add_numbers(uint8_t *a, uint8_t *b, uint8_t N):&#160;sol1.c'],['../d8/d32/problem__25_2sol1_8c.html#af9729befaffc1aab9ac9fedc4706e66c',1,'add_numbers(unsigned char *a, unsigned char *b, unsigned char *c, int N):&#160;sol1.c']]],
-  ['avlnode_10',['AVLnode',['../d2/d71/struct_a_v_lnode.html',1,'']]],
-  ['array_11',['Array',['../d9/d41/md_data_structures_array__r_e_a_d_m_e.html',1,'']]]
+  ['array_5f3d_10',['array_3d',['../d0/dc8/structarray__3d.html',1,'']]],
+  ['avlnode_11',['AVLnode',['../d2/d71/struct_a_v_lnode.html',1,'']]],
+  ['array_12',['Array',['../d9/d41/md_data_structures_array__r_e_a_d_m_e.html',1,'']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['kohonen_5fsom_5ftracer_257',['kohonen_som_tracer',['../d0/d46/kohonen__som__trace_8c.html#aeaeffbff2be4d5d15b0d4f10f846abde',1,'kohonen_som_trace.c']]]
+  ['kohonen_5fsom_287',['kohonen_som',['../d4/d06/kohonen__som__image_8c.html#a1983dc0f35e734015772e9f8c0ff19f5',1,'kohonen_som_image.c']]],
+  ['kohonen_5fsom_5ftracer_288',['kohonen_som_tracer',['../d0/d46/kohonen__som__trace_8c.html#aeaeffbff2be4d5d15b0d4f10f846abde',1,'kohonen_som_trace.c']]]
 ];

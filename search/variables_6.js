@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['weights_308',['weights',['../d2/daa/structadaline.html#a32e58c03fd9258709eae6138ad0ec657',1,'adaline']]]
+  ['prev_5fdigit_349',['prev_digit',['../dc/d77/struct__big__int.html#ad8405989a924410942b39ec0e9fef30b',1,'_big_int']]]
 ];

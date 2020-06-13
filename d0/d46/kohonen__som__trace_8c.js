@@ -1,6 +1,8 @@
 var kohonen__som__trace_8c =
 [
     [ "_USE_MATH_DEFINES", "d0/d46/kohonen__som__trace_8c.html#a525335710b53cb064ca56b936120431e", null ],
+    [ "max", "d0/d46/kohonen__som__trace_8c.html#affe776513b24d84b39af8ab0930fef7f", null ],
+    [ "min", "d0/d46/kohonen__som__trace_8c.html#ac6afabdc09a49a433ee19d8a9486056d", null ],
     [ "_random", "d0/d46/kohonen__som__trace_8c.html#af5ce14f026d6d231bef29161bac2b485", null ],
     [ "get_clock_diff", "d0/d46/kohonen__som__trace_8c.html#a2256c10b16edba377b64a44b6c656908", null ],
     [ "get_min_1d", "d0/d46/kohonen__som__trace_8c.html#a0a292ebd954c568934b1fd06666d27e6", null ],

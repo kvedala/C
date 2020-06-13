@@ -10,6 +10,7 @@ var annotated_dup =
     [ "_big_int", "dc/d77/struct__big__int.html", "dc/d77/struct__big__int" ],
     [ "_large_num", "d3/d5a/struct__large__num.html", "d3/d5a/struct__large__num" ],
     [ "adaline", "d2/daa/structadaline.html", "d2/daa/structadaline" ],
+    [ "array_3d", "d0/dc8/structarray__3d.html", "d0/dc8/structarray__3d" ],
     [ "AVLnode", "d2/d71/struct_a_v_lnode.html", "d2/d71/struct_a_v_lnode" ],
     [ "BSTIterator", "d4/d02/struct_b_s_t_iterator.html", "d4/d02/struct_b_s_t_iterator" ],
     [ "CArray", "d4/d2d/struct_c_array.html", "d4/d2d/struct_c_array" ],
