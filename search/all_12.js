@@ -2,9 +2,9 @@ var searchData=
 [
   ['simple_20generic_20stack_145',['Simple generic Stack',['../d1/d12/md_data_structures_stack__r_e_a_d_m_e.html',1,'']]],
   ['sample_20solutions_20for_20_3ca_20href_3d_22http_3a_2f_2fexercism_2eio_2f_22_3eexercism_2eio_3c_2fa_3e_146',['Sample solutions for &lt;a href=&quot;http://exercism.io/&quot;&gt;exercism.io&lt;/a&gt;',['../d7/db5/md_exercism__r_e_a_d_m_e.html',1,'']]],
-  ['save_5f2d_5fdata_147',['save_2d_data',['../d4/d06/kohonen__som__image_8c.html#a6824dc6d973eb3339af7aef5fea78b0c',1,'kohonen_som_image.c']]],
+  ['save_5f2d_5fdata_147',['save_2d_data',['../d2/df6/kohonen__som__topology_8c.html#a6824dc6d973eb3339af7aef5fea78b0c',1,'kohonen_som_topology.c']]],
   ['save_5fnd_5fdata_148',['save_nd_data',['../d0/d46/kohonen__som__trace_8c.html#a7b84b14e60f47812b581d1f93057c85a',1,'kohonen_som_trace.c']]],
-  ['save_5fu_5fmatrix_149',['save_u_matrix',['../d4/d06/kohonen__som__image_8c.html#adee1bc3871c881f6e04cb9e0b1d01158',1,'kohonen_som_image.c']]],
+  ['save_5fu_5fmatrix_149',['save_u_matrix',['../d2/df6/kohonen__som__topology_8c.html#adee1bc3871c881f6e04cb9e0b1d01158',1,'kohonen_som_topology.c']]],
   ['search_150',['search',['../df/d3c/threaded__binary__trees_8c.html#a306d567466f22e1e927aaed97d8bb58c',1,'threaded_binary_trees.c']]],
   ['semi_5fimplicit_5feuler_151',['semi_implicit_euler',['../d4/d99/ode__semi__implicit__euler_8c.html#ad80059877222f885b549f2d0a3dc6b55',1,'ode_semi_implicit_euler.c']]],
   ['semi_5fimplicit_5feuler_5fstep_152',['semi_implicit_euler_step',['../d4/d99/ode__semi__implicit__euler_8c.html#a720b7e995d2bbc615f94a2c7dbcf84eb',1,'ode_semi_implicit_euler.c']]],

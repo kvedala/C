@@ -2,7 +2,7 @@ var searchData=
 [
   ['d_5ffunc_27',['d_func',['../dd/d08/newton__raphson__root_8c.html#ae713a1fd0c275fbec7edf263ac2c0337',1,'newton_raphson_root.c']]],
   ['data_28',['data',['../df/dea/structdata.html',1,'data'],['../db/d8b/struct_node.html#a87c003c9f600e3fc58e6e90835f0b605',1,'Node::data()'],['../d0/dc8/structarray__3d.html#ac8967b2c72769f839c09fb4cebb4339f',1,'array_3d::data()']]],
-  ['data_5f3d_29',['data_3d',['../d4/d06/kohonen__som__image_8c.html#a7237d2cf3b3f9d034477268c1d6631da',1,'kohonen_som_image.c']]],
+  ['data_5f3d_29',['data_3d',['../d2/df6/kohonen__som__topology_8c.html#a7237d2cf3b3f9d034477268c1d6631da',1,'kohonen_som_topology.c']]],
   ['delete_5fadaline_30',['delete_adaline',['../dd/d8c/adaline__learning_8c.html#a6f35caa3084772cc126ac7b20f67f665',1,'adaline_learning.c']]],
   ['delete_5fbt_31',['delete_bt',['../df/d3c/threaded__binary__trees_8c.html#a284d683f74b6c884e79ba00d3d1c3317',1,'threaded_binary_trees.c']]],
   ['delete_5fnumber_32',['delete_number',['../d6/d3d/factorial__large__number_8c.html#ab5c854e0df76165c31899e69eceeeaae',1,'factorial_large_number.c']]],
