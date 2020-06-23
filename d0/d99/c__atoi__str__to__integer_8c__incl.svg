@@ -13,9 +13,9 @@
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title="Recoding the original atoi function in stdlib.h.">
-<polygon fill="#bfbfbf" stroke="black" points="75,-56.5 75,-86.5 173,-86.5 173,-56.5 75,-56.5"/>
-<text text-anchor="start" x="83" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">conversions/c_atoi</text>
-<text text-anchor="middle" x="124" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">_str_to_integer.c</text>
+<polygon fill="#bfbfbf" stroke="black" points="76,-56.5 76,-86.5 174,-86.5 174,-56.5 76,-56.5"/>
+<text text-anchor="start" x="84" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">conversions/c_atoi</text>
+<text text-anchor="middle" x="125" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">_str_to_integer.c</text>
 </a>
 </g>
 </g>
@@ -23,31 +23,31 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="0,-0.5 0,-19.5 46,-19.5 46,-0.5 0,-0.5"/>
-<text text-anchor="middle" x="23" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">stdio.h</text>
+<polygon fill="white" stroke="#bfbfbf" points="0,-0.5 0,-19.5 52,-19.5 52,-0.5 0,-0.5"/>
+<text text-anchor="middle" x="26" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">assert.h</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M100.06,-56.4C83.87,-46.86 62.59,-34.32 46.5,-24.84"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="48.09,-21.72 37.7,-19.66 44.54,-27.75 48.09,-21.72"/>
+<path fill="none" stroke="midnightblue" d="M101.54,-56.4C85.67,-46.86 64.81,-34.32 49.03,-24.84"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="50.78,-21.81 40.41,-19.66 47.17,-27.81 50.78,-21.81"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="64,-0.5 64,-19.5 116,-19.5 116,-0.5 64,-0.5"/>
-<text text-anchor="middle" x="90" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">assert.h</text>
+<polygon fill="white" stroke="#bfbfbf" points="70,-0.5 70,-19.5 116,-19.5 116,-0.5 70,-0.5"/>
+<text text-anchor="middle" x="93" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">stdio.h</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M115.94,-56.4C111.15,-48.02 105.04,-37.33 99.96,-28.42"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="102.95,-26.6 94.95,-19.66 96.87,-30.08 102.95,-26.6"/>
+<path fill="none" stroke="midnightblue" d="M117.42,-56.4C112.96,-48.11 107.28,-37.55 102.52,-28.71"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="105.48,-26.81 97.66,-19.66 99.31,-30.12 105.48,-26.81"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -61,8 +61,8 @@
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M132.06,-56.4C136.85,-48.02 142.96,-37.33 148.04,-28.42"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="151.13,-30.08 153.05,-19.66 145.05,-26.6 151.13,-30.08"/>
+<path fill="none" stroke="midnightblue" d="M132.82,-56.4C137.47,-48.02 143.4,-37.33 148.34,-28.42"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="151.41,-30.1 153.2,-19.66 145.29,-26.71 151.41,-30.1"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -76,8 +76,8 @@
 <!-- Node1&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node1&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M147.94,-56.4C164.13,-46.86 185.41,-34.32 201.5,-24.84"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="203.46,-27.75 210.3,-19.66 199.91,-21.72 203.46,-27.75"/>
+<path fill="none" stroke="midnightblue" d="M148.7,-56.4C164.73,-46.86 185.8,-34.32 201.74,-24.84"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="203.64,-27.78 210.45,-19.66 200.07,-21.76 203.64,-27.78"/>
 </g>
 </g>
 </svg>
