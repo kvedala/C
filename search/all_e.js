@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['n_146',['N',['../dc/d18/structsudoku.html#a160365012280c3e10f1b31e914e8f129',1,'sudoku::N()'],['../db/d01/problem__13_2sol1_8c.html#a0240ac851181b84ac374872dc5434ee4',1,'N():&#160;sol1.c']]],
-  ['n2_147',['N2',['../dc/d18/structsudoku.html#a0f01e2782e82306e6fab9a8578006f56',1,'sudoku::N2()'],['../db/d01/problem__13_2sol1_8c.html#acd864640121c7df2c19f61f7baa507e4',1,'N2():&#160;sol1.c']]],
+  ['n_146',['N',['../dc/d18/structsudoku.html#a160365012280c3e10f1b31e914e8f129',1,'sudoku']]],
+  ['n2_147',['N2',['../dc/d18/structsudoku.html#a0f01e2782e82306e6fab9a8578006f56',1,'sudoku']]],
   ['new_5fadaline_148',['new_adaline',['../da/d2a/group__adaline.html#gacd88962c5f6341e43cbc69b4a7d3485b',1,'adaline_learning.c']]],
   ['new_5fnumber_149',['new_number',['../d6/d3d/factorial__large__number_8c.html#ad8101f58545bd891ae8b6e11caadd7eb',1,'factorial_large_number.c']]],
   ['newton_5fraphson_5froot_2ec_150',['newton_raphson_root.c',['../dd/d08/newton__raphson__root_8c.html',1,'']]],
